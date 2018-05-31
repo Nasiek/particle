@@ -5,13 +5,13 @@ description: A blog about lorem ipsum dolor sit amet
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Keisan Gittens
+user_description: Extremely interested in geospatial technology and software in all of its forms. My main interests are New Urbanism, Transit Oriented Development, science fiction and fine arts although I occasionally dabble in pop-culture. I am always seeking to improve myself, be more confident, learn from mistakes and be a better programmer.
+user_title: Software Developer | Urban Planner | Data Analyst
+email: keisangittens@gmail.com
+twitter_username: whatisyourllama
+github_username:  Nasiek
+gplus_username:  KeisanGittens
 
 # Google-analytics
 google-analytics:
