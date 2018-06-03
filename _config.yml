@@ -20,5 +20,4 @@ google-analytics:
 plugins:
   - "jekyll-github-metadata"
 ## baseurl
-
 exclude: ['package.json', 'src' , 'node_modules']
