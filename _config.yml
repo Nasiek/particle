@@ -16,5 +16,9 @@ gplus_username:  KeisanGittens
 # Google-analytics
 google-analytics:
   id: ""
+## plugins
+plugins:
+  - "jekyll-github-metadata"
+## baseurl
 
 exclude: ['package.json', 'src' , 'node_modules']
