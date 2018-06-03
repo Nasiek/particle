@@ -1,12 +1,12 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Keisan Gittens Portfolio
+description: Keisan Gittens Portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Keisan Gittens
-user_description: Extremely interested in geospatial technology and software in all of its forms. My main interests are New Urbanism, Transit Oriented Development, science fiction and fine arts although I occasionally dabble in pop-culture. I am always seeking to improve myself, be more confident, learn from mistakes and be a better programmer.
+user_description: Extremely interested in geospatial technology and software in all of its forms. My main interests are New Urbanism, Transit Oriented Development, data science and software. For fun, I enjoy outdoor recreation such as hiking, biking and trail running, playing scrabble, and concerts. I value making esoteric topics accessible, learning from others' and using my education, skills and experiences to create empathetic  solutions to problems.I am always seeking to improve myself, be more confident, learn from mistakes and be a better planner/programmer/analyst.
 user_title: Web Developer <br> Urban Planner <br>  Data Analyst
 email: keisangittens@gmail.com
 twitter_username: whatisyourllama
