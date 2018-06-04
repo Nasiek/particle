@@ -1,6 +1,6 @@
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css">
  <div class="user-details">
-  <a title="View Resume" target="_blank" style="color: #2874A6;" href="https://drive.google.com/file/d/1O-gKXX_cSiPEJngQF92VVuJ-tUStjzWH/view?usp=sharing"><h1 style="color: #2874A6;"> About Me </h1></a>
+  <a class="melink" title="View Resume" target="_blank" style="color: #2874A6;" href="https://drive.google.com/file/d/1O-gKXX_cSiPEJngQF92VVuJ-tUStjzWH/view?usp=sharing"><h1 class="aboutme"> About Me </h1></a>
   <p> {{site.user_description}} </p>
 </div>
   <div class="user">
@@ -8,6 +8,15 @@
       <style type="text/css">
         #planning{
           padding-bottom: 13px;
+        }
+        .melink{
+          text-decoration: none;
+        }
+        .aboutme{
+          color: #2874A6;
+        }
+        .aboutme:hover{
+          color: #AED6F1;
         }
       </style>
       <h2 id="planning">Urban Planning | Design</h2>
