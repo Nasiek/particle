@@ -7,6 +7,12 @@
   }
 }
 
+.about-bl {
+position: absolute;
+width: 10px;
+display: inline-block;  
+}
+
 .tech {
   margin: 10px;
 }
@@ -27,7 +33,8 @@
   }
 }
 
-.user-details {
+.user-details p{
   text-align: center;
   margin: 5px auto;
+  width: 50px;
 }
