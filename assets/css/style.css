@@ -2,8 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-.para-desc3 {
-	border: solid 2px red;
-	width: 600px;
-}
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css")
