@@ -3,7 +3,7 @@
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="demo" src="{{ "/assets/img/saferidedemo1.png" | prepend: site.baseurl }}" />
+    <img alt="SafeRide App Demo" src="{{ "/assets/img/saferidedemo1.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
     <h3> SafeRide </h3>
@@ -33,7 +33,7 @@
 
 <div class="user-projects" style="padding-bottom: 15px;">
   <div class="images-left">
-    <img alt="phillygrid" src="{{ "/assets/img/WeequahicWalk.png" | prepend: site.baseurl }}" />
+    <img alt="Weequahic Walk Cover Photo" src="{{ "/assets/img/WeequahicWalk.png" | prepend: site.baseurl }}" />
   </div>
   <div id="PGcountainer-div" class="contents-right">
     <h3> Weequahic Crossing </h3>
@@ -95,6 +95,320 @@
       <div id="right" class="project"><a target="_blank" class="bottomlink" href="https://docs.google.com/presentation/d/1X6hpEQhu3hmH0Wt5g-_kLjxwHXJ2yzLJblxvA_Jmud4/edit?usp=sharing">Mapping Refugee Resettlement Resources in Philadelphia (Presentation)</a></div>
     <!-- </ul> -->
 <!--   </div> -->
+</div>
+
+<h3>Drawings</h3>
+<div class="community">
+  <div class="project">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .row > .column {
+        padding: 0 8px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .column {
+        float: left;
+        width: 25%;
+      }
+      
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .mySlides {
+        display: none;
+      }
+      
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      img {
+        margin-bottom: -4px;
+      }
+      
+      .caption-container {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+      .demo {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+      
+      img.hover-shadow {
+        transition: 0.3s;
+      }
+      
+      .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      </style>
+      <body>
+      
+      <!-- <h2 style="text-align:center">Lightbox</h2> -->
+      
+      <div class="row">
+        <div class="column">
+            <!-- src="{{ "/assets/img/WeequahicWalk.png" | prepend: site.baseurl }}" -->
+            <img alt="EWR Site Plan Before" style="width:100%" src="{{ "/assets/img/newark_before.jpg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/> 
+          <!-- <img alt="hello" src="{{ "/assets/img/ESRI.jpg | prepend: site.baseurl }}" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" /> -->
+        </div>
+        <div class="column">
+            <img alt="EWR Site Plan After" style="width:100%" src="{{ "/assets/img/newark_after.jpg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"/>
+          <!-- <img src="{{ "/assets/img/photoshop_after1.jpg | prepend: site.baseurl }}" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" /> -->
+        </div>
+        <div class="column">
+            <img alt="Vacant Lot" style="width:100%" src="{{ "/assets/img/photoshop_before.jpg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"/>
+        </div>
+        <div class="column">
+            <img alt="Vacant Lot After1" style="width:100%" src="{{ "/assets/img/photoshop_after1.png" | prepend: site.baseurl }}" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"/>
+        </div>
+        <div class="column">
+            <img alt="Vacant Lot After2" style="width:100%" src="{{ "/assets/img/photoshop_after2.jpg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(5)" class="hover-shadow cursor"/>
+        </div>
+        <div class="column">
+            <img alt="Frelinghuysen Ave Before" style="width:100%" src="{{ "/assets/img/render2.jpg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(6)" class="hover-shadow cursor"/>
+        </div>
+        <div class="column">
+            <img alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/Render1.png" | prepend: site.baseurl }}" onclick="openModal();currentSlide(7)" class="hover-shadow cursor"/>
+        </div>
+
+        <!-- <div class="column"> 
+          <img alt="Baltimore Ave SitePlan" style="width:70%" src="{{ "/assets/img/DetailKeisan_Ass14.png" | prepend: site.baseurl }}" onclick="openModal();currentSlide(8)" class="hover-shadow cursor"/>
+        </div> -->
+        
+
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 7</div>
+            <!-- <img src="{{ "/assets/img/ESRI.jpg | prepend: site.baseurl }}" style="width:100%" /> -->
+            <img alt="EWR Site Plan Before" style="width:100%" src="{{ "/assets/img/newark_before.jpg" | prepend: site.baseurl }}" />
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 7</div>
+            <img alt="EWR Site Plan After" style="width:100%" src="{{ "/assets/img/newark_after.jpg" | prepend: site.baseurl }}" />
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 7</div>
+            <img alt="Vacant Lot" style="width:100%" src="{{ "/assets/img/photoshop_before.jpg" | prepend: site.baseurl }}" />
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 7</div>
+            <img alt="Vacant Lot After" style="width:100%" src="{{ "/assets/img/photoshop_after1.png" | prepend: site.baseurl }}" />
+          </div>
+
+          <div class="mySlides">
+              <div class="numbertext">5 / 7</div>
+              <img alt="Vacant Lot After" style="width:100%" src="{{ "/assets/img/photoshop_after2.jpg" | prepend: site.baseurl }}" />
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 7</div>
+                <img alt="Frelinghuysen Ave Before" style="width:100%" src="{{ "/assets/img/render2.jpg" | prepend: site.baseurl }}" />
+              </div>
+
+              <div class="mySlides">
+                  <div class="numbertext">7 / 7</div>
+                  <img alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/Render1.png" | prepend: site.baseurl }}" />
+                </div>
+        </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+              <img class="demo cursor" alt="EWR Site Plan Before" style="width:100%" src="{{ "/assets/img/newark_before.jpg" | prepend: site.baseurl }}"  onclick="currentSlide(1)" />
+            <!-- <img class="demo cursor" src="{{ "/assets/img/ESRI.jpg | prepend: site.baseurl }}" style="width:100%" onclick="currentSlide(1)" alt="Vacant Lot" /> -->
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="EWR Site Plan After" style="width:100%" src="{{ "/assets/img/newark_after.jpg" | prepend: site.baseurl }}"  onclick="currentSlide(2)" />
+            <!-- <img class="demo cursor" src="{{ "/assets/img/photoshop_after1.png | prepend: site.baseurl }}" style="width:100%" onclick="currentSlide(2)" alt="B&W Render Children on field" /> -->
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Vacant Lot" style="width:100%" src="{{ "/assets/img/photoshop_before.jpg" | prepend: site.baseurl }}"  onclick="currentSlide(3)" />
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Vacant Lot After" style="width:100%" src="{{ "/assets/img/photoshop_after1.png" | prepend: site.baseurl }}"  onclick="currentSlide(4)" />
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Vacant Lot After" style="width:100%" src="{{ "/assets/img/photoshop_after2.jpg" | prepend: site.baseurl }}"  onclick="currentSlide(5)" />
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Frelinghuysen Ave Before" style="width:100%" src="{{ "/assets/img/render2.jpg" | prepend: site.baseurl }}"  onclick="currentSlide(6)" />
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/Render1.png" | prepend: site.baseurl }}"  onclick="currentSlide(7)" />
+          </div>
+        </div>
+      </div>
+      
+      <script>
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+      }
+      
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+      
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+          
+      </body>
+            </div>
+</div>
+
+<h3>Presentations</h3>
+<div class="community">
+  <div class="project">
+      <div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:visible;">
+          <iframe width="450" height="270" src="https://voicethread.com/app/player/?threadId=12758868" frameborder="0" allowusermedia allowfullscreen allow="camera https://voicethread.com; microphone https://voicethread.com; fullscreen https://voicethread.com;"></iframe>
+        </div>
+  </div>
+  <div class="project">
+      <div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQlI71y5S991TyMkitxEjyCZs3wMIJM21Ew9_0HcANa1_YQG6UizeZ8ny_Ty_f0sPZXFBJEgse214aN/embed?start=true&loop=false&delayms=5000" frameborder="0" width="450" height="270" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+  </div>
 </div>
 
 <h3>Philly Tech Community</h3>
