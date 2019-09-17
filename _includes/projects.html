@@ -1,4 +1,4 @@
-<div class="user-details">
+<div class="user-details" style="padding-bottom: 15px;">
   <h1> Featured Projects </h1>
 </div>
 <div class="user-projects">
@@ -56,6 +56,28 @@
   </div>
 </div>
 
+
+<!-- <div class="user-details">
+    <h1> Featured Projects </h1>
+  </div> -->
+  <div class="user-projects" style="padding-bottom: 15px;">
+    <div class="images-right">
+      <img alt="NSC" src="{{ "/assets/img/NSC_Resettlement.jpeg" | prepend: site.baseurl }}" />
+    </div>
+    <div class="contents">
+      <h3> Community Economic Development Practicum </h3>
+      <p id="proj1">Analyzing housing, transportation access, civic, educational and cultural instutitions to identify the best locations to place newly arrived refugees in Philadelphia. 
+          <ul>
+              <li>Ranked neighborhoods based upon accessibility to services, jobs and community resources.</li>
+              <li>Visualized existing community assets from <a target='_blank' title="American Census Bureau" href="https://www.census.gov/" class="bottomlink" class="paralinks">ACB</a>, and <a target='_blank' title="Bureau of Labor Statistics" href="https://www.bls.gov/" class="bottomlink" class="paralinks">BLS</a> to create criteria for housing recommendations.</li>
+              <li>Scraped data from <a target='_blank' href="https://www.yelp.com/dataset" class="bottomlink" class="paralinks">Yelp</a> and <a title="Open Data Philly" target='_blank' href="https://www.opendataphilly.org/dataset/neighborhood-food-retail" class="bottomlink" class="paralinks">Open Data</a> to identify and classify local food markets, crime patterns, educational outcomes, employement opportunities, job training resources and demographic clusters.</li>
+              <li>Organized and attended site visits, meetings and organizational dynamics analyses to identify client's needs and proposed project deliverables.</li>
+            </ul>
+      </p>
+      <a target="_blank" class="project-link" href="https://drive.google.com/file/d/1KMKSvwFZByJZvBNhRcJSfi3HPZFm2NAa/view?usp=sharing">View</a>
+    </div>
+  </div>
+
 <style type="text/css">
   .extraprojects{
     padding-top: 30px;
@@ -83,21 +105,27 @@
 
   }
 </style>
+
+
+
 <h3>Data Analysis Projects</h3>
+
 <div class="extraprojects">
   
+      
   <!-- <div class="row1"> -->
     <!-- <ul> -->
       <div class="project"><a target="_blank" class="bottomlink" href="https://drive.google.com/file/d/0B-ydlqhZeg47dlNlQUNHTTBsVERWaW5hS19rT3JlWUhsNFJn/view?usp=sharing">Mapping Transit Oriented Development Opportunities in Philadelphia</a></div>
       <div id="right" class="project"><a target="_blank" class="bottomlink" href="https://drive.google.com/file/d/0B-ydlqhZeg47NG5yeXNjVjR6SjVDUS1TNjZvRjVaMjFJNFpz/view?usp=sharing">Predicting Housing Prices in Philadelphia using Spatial and Aspatial variables via Linear Model Regression Analysis</a></div>
-      <div class="project"><a target="_blank" class="bottomlink" href="https://drive.google.com/file/d/0B-ydlqhZeg47bGw5NTlfOEticEpZbjYtd2tiTW9rcTlNbW00/view?usp=sharing">Evaluating Neighborhoods in Philadelphia for Refugee Resettlement</a></div>
+      <!-- <div class="project"><a target="_blank" class="bottomlink" href="https://drive.google.com/file/d/0B-ydlqhZeg47bGw5NTlfOEticEpZbjYtd2tiTW9rcTlNbW00/view?usp=sharing">Evaluating Neighborhoods in Philadelphia for Refugee Resettlement</a></div>
 
-      <div id="right" class="project"><a target="_blank" class="bottomlink" href="https://docs.google.com/presentation/d/1X6hpEQhu3hmH0Wt5g-_kLjxwHXJ2yzLJblxvA_Jmud4/edit?usp=sharing">Mapping Refugee Resettlement Resources in Philadelphia (Presentation)</a></div>
+      <div id="right" class="project"><a target="_blank" class="bottomlink" href="https://docs.google.com/presentation/d/1X6hpEQhu3hmH0Wt5g-_kLjxwHXJ2yzLJblxvA_Jmud4/edit?usp=sharing">Mapping Refugee Resettlement Resources in Philadelphia (Presentation)</a></div> -->
     <!-- </ul> -->
 <!--   </div> -->
 </div>
 
 <h3>Drawings</h3>
+
 <div class="community">
   <div class="project">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -110,9 +138,48 @@
       * {
         box-sizing: border-box;
       }
+      .row{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+     .row > .column {
+        display: grid;
+        /* margin-left: 5vw; */
+        /* margin-right: 60vw;  */
+        /* grid-template-columns: repeat(4, 1fr); */
+        grid-auto-rows: minmax(100px,auto);
+        
+        grid-gap: 1em;
+        padding: 1em;
+        /* width: 25%; */ 
+      } 
+      .modal > .innerdiv {
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 100px auto;
+      }
       
+      /* .modal > .innerdiv > .column {
+        display: grid;
+        grid-template-rows: 100px auto;
+        grid-template-columns: repeat(4, 1fr);
+
+      } */
+      .row > .column {
+        display: grid;
+        grid-auto-rows: minmax(100px,auto);
+      }
+      /* .row > .column > .demo .cursor{
+        display:grid;
+        
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+        padding: 1em;
+      } */
       .row > .column {
         padding: 0 8px;
+        
       }
       
       .row:after {
@@ -121,10 +188,13 @@
         clear: both;
       }
       
-      .column {
-        float: left;
-        width: 25%;
-      }
+      /* .column { */
+        /* display:grid; */
+         /* float: left;  */
+        /* width: 25%;  */
+        /* grid-template-columns: repeat(4, 2fr);
+        grid-auto-rows: minmax(1fr, 1fr, 1fr,1fr); */
+      /* } */
       
       /* The Modal (background) */
       .modal {
@@ -137,7 +207,7 @@
         width: 100%;
         height: 100%;
         overflow: auto;
-        background-color: black;
+        background-color: #9A9A9A;
       }
       
       /* Modal Content */
@@ -202,7 +272,7 @@
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover,
       .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: #9A9A9A;
       }
       
       /* Number text (1/3 etc) */
@@ -214,13 +284,13 @@
         top: 0;
       }
       
-      img {
+      /* img {
         margin-bottom: -4px;
-      }
+      } */
       
       .caption-container {
         text-align: center;
-        background-color: black;
+        background-color: #9A9A9A;
         padding: 2px 16px;
         color: white;
       }
@@ -232,6 +302,7 @@
       .active,
       .demo:hover {
         opacity: 1;
+        
       }
       
       img.hover-shadow {
@@ -272,10 +343,16 @@
             <img alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/Render1.png" | prepend: site.baseurl }}" onclick="openModal();currentSlide(7)" class="hover-shadow cursor"/>
         </div>
 
-        <!-- <div class="column"> 
-          <img alt="Baltimore Ave SitePlan" style="width:70%" src="{{ "/assets/img/DetailKeisan_Ass14.png" | prepend: site.baseurl }}" onclick="openModal();currentSlide(8)" class="hover-shadow cursor"/>
-        </div> -->
-        
+        <div class="column">
+            <!-- src="{{ "/assets/img/WeequahicWalk.png" | prepend: site.baseurl }}" -->
+            <img alt="Frelinghuysing Ave Street Before B&W" style="width:100%" src="{{ "/assets/img/BeforeFrelinghuysing_BW.svg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(8)" class="hover-shadow cursor"/>
+
+            <div class="column">
+                <img alt="Frelinghuysen Ave Before Color" style="width:100%" src="{{ "/assets/img/Frelinghuysen_Ave_Before_COLOR.svg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(9)" class="hover-shadow cursor"/>
+            </div>
+            <div class="column">
+                <img alt="Frelinghuysen Ave After Color" style="width:100%" src="{{ "/assets/img/Frelinghuysen_Ave_AFTER_COLOR.svg" | prepend: site.baseurl }}" onclick="openModal();currentSlide(10)" class="hover-shadow cursor"/>
+            </div>
 
       </div>
       
@@ -318,6 +395,20 @@
                   <div class="numbertext">7 / 7</div>
                   <img alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/Render1.png" | prepend: site.baseurl }}" />
                 </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 7</div>
+                    <img alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/BeforeFrelinghuysing_BW.svg" | prepend: site.baseurl }}" />
+                  </div>
+                  <div class="mySlides">
+                      <div class="numbertext">9 / 7</div>
+                      <img alt="Frelinghuysen Ave Before Color" style="width:100%" src="{{ "/assets/img/Frelinghuysen_Ave_Before_COLOR.svg" | prepend: site.baseurl }}" />
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">10 / 7</div>
+                      <img alt="Frelinghuysen Ave After Color" style="width:100%" src="{{ "/assets/img/Frelinghuysen_Ave_AFTER_COLOR.svg" | prepend: site.baseurl }}" />
+                    </div>
+                  
+                
         </div>
           
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -328,7 +419,8 @@
           </div>
       
       
-          <div class="column">
+          <div class="innerdiv">
+            <div class="column">
               <img class="demo cursor" alt="EWR Site Plan Before" style="width:100%" src="{{ "/assets/img/newark_before.jpg" | prepend: site.baseurl }}"  onclick="currentSlide(1)" />
             <!-- <img class="demo cursor" src="{{ "/assets/img/ESRI.jpg | prepend: site.baseurl }}" style="width:100%" onclick="currentSlide(1)" alt="Vacant Lot" /> -->
           </div>
@@ -351,12 +443,23 @@
           <div class="column">
               <img class="demo cursor" alt="Frelinghuysen Ave After" style="width:100%" src="{{ "/assets/img/Render1.png" | prepend: site.baseurl }}"  onclick="currentSlide(7)" />
           </div>
+          <div class="column">
+              <img class="demo cursor" alt="Frelinghuysen Ave Before Street Section B&W" style="width:100%; filter: invert(100%) brightness(1000) contrast(100%); fill: rgb(255,255,255)" src="{{ "/assets/img/BeforeFrelinghuysing_BW.svg" | prepend: site.baseurl }}"  onclick="currentSlide(8)" />
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Frelinghuysen Ave Before Color" style="width:100%; filter: invert(100%) brightness(1000) contrast(100%);" src="{{ "/assets/img/Frelinghuysen_Ave_Before_COLOR.svg" | prepend: site.baseurl }}"  onclick="currentSlide(9)" />
+          </div>
+          <div class="column">
+              <img class="demo cursor" alt="Frelinghuysen Ave After Color" style="width:100%; filter: invert(100%) brightness(1000) contrast(100%);" src="{{ "/assets/img/Frelinghuysen_Ave_AFTER_COLOR.svg" | prepend: site.baseurl }}"  onclick="currentSlide(10)" />
+          </div>
+          <!-- filter: invert(100%) brightness(1000) contrast(100%); fill: rgb(255,255,255)" -->
+        </div> 
         </div>
       </div>
       
       <script>
       function openModal() {
-        document.getElementById("myModal").style.display = "block";
+        document.getElementById("myModal").style.display = "grid";
       }
       
       function closeModal() {
@@ -400,15 +503,17 @@
 <h3>Presentations</h3>
 <div class="community">
   <div class="project">
-      <div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:visible;">
+      <div style="position:static; padding-bottom:56.25%; padding-top:30px; height:0; overflow:visible;">
           <iframe width="450" height="270" src="https://voicethread.com/app/player/?threadId=12758868" frameborder="0" allowusermedia allowfullscreen allow="camera https://voicethread.com; microphone https://voicethread.com; fullscreen https://voicethread.com;"></iframe>
         </div>
   </div>
+  <div class="community">
   <div class="project">
-      <div style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
+      <div style="position:static; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
           <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQlI71y5S991TyMkitxEjyCZs3wMIJM21Ew9_0HcANa1_YQG6UizeZ8ny_Ty_f0sPZXFBJEgse214aN/embed?start=true&loop=false&delayms=5000" frameborder="0" width="450" height="270" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
   </div>
+</div>
 </div>
 
 <h3>Philly Tech Community</h3>
